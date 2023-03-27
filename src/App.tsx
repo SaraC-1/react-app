@@ -5,9 +5,9 @@ import Navigation from "./components/navigation";
 const App = () => {
   return (
     <div className="App">
-      Hello world!
       <Header />
       <Navigation />
+      <div className="container">Hello world!</div>
     </div>
   );
 };
