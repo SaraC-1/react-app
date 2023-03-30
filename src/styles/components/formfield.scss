@@ -1,0 +1,10 @@
+.formfield {
+  display: block;
+  margin: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.75rem;
+  ::placeholder {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.75rem;
+  }
+}

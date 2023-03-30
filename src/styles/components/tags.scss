@@ -1,0 +1,19 @@
+.tags {
+  margin: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.75rem;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  margin-right: 0.25rem;
+  background-color: #02a9f7;
+
+  &:hover {
+    background-color: #89d6fb;
+  }
+}

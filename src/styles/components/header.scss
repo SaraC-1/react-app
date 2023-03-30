@@ -1,7 +1,13 @@
 .header {
   padding: 2 rem;
-  background-color: white;
+  background-color: #02a9f7;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.25rem;
   &__logo {
+    display: flex;
+    align-items: center;
+  }
+  &__logoimg {
     width: 5rem;
   }
   &__nav {
@@ -10,7 +16,6 @@
     &__item {
       text-decoration: none;
       color: black;
-      font-size: 1.25rem;
       margin-right: 1rem;
 
       &:last-child {
