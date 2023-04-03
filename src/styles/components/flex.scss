@@ -1,0 +1,40 @@
+.icon {
+  width: 35px;
+  height: 35px;
+}
+.flex {
+  margin: 1rem;
+  padding: 3rem;
+  width: 32rem;
+  &--first {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  &--second {
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  &--third {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+}
+
+.card {
+  &--wrapper {
+    width: 50%;
+    display: flex;
+  }
+  &__item {
+    width: 30%;
+    border: 1px solid black;
+    padding: 1rem;
+  }
+}
