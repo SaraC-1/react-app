@@ -9,13 +9,18 @@ import Tags from "./components/tags";
 import Modal from "./components/modal";
 import TransformExe from "./components/transform-exe";
 import FlexExe from "./components/flex-exe";
+import IconEdit from "./components/icon-edit";
+import Input from "./components/input";
 
 const App = () => {
   return (
     <div className="App">
       <Header />
       <Navigation />
-      <Button />
+      <Input label="First name" validation="Success!" />
+      <Input label="Last name" rounded />
+      <Button animate={true} value="Animate me" icon={<IconEdit />} />
+      <Button animate={false} btn--red />
       <Checkbox />
       <FormField />
       <Pagination />

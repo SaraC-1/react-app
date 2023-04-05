@@ -1,3 +1,52 @@
+@keyframes shadow {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+    transform: scaleX(1.4) scaleY(1.6);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@keyframes throb {
+  0% {
+    box-shadow: 0px 0px 0px 0px #007cff80, 0px 0px 0px 0px #007cff80,
+      0px 0px 0px 0px #007cff80;
+  }
+  15% {
+    box-shadow: 0px 0px 0px 0px #007cff80, 0px 0px 0px 0px #007cff80,
+      0px 0px 0px 5px #007cff80;
+  }
+  30% {
+    box-shadow: 0px 0px 0px 0px #007cff80, 0px 0px 0px 5px #007cff80,
+      0px 0px 0px 10px #007cff40;
+  }
+  45% {
+    box-shadow: 0px 0px 0px 5px #007cff80, 0px 0px 0px 10px #007cff40,
+      0px 0px 0px 15px #007cff20;
+  }
+  60% {
+    box-shadow: 0px 0px 0px 10px #007cff40, 0px 0px 0px 15px #007cff20,
+      0px 0px 15px 15px #007cff00;
+  }
+  75% {
+    box-shadow: 0px 0px 0px 15px #007cff20, 0px 0px 15px 15px #007cff00,
+      0px 0px 15px 15px #007cff00;
+  }
+  90% {
+    box-shadow: 0px 0px 15px 15px #007cff00, 0px 0px 15px 15px #007cff00,
+      0px 0px 15px 15px #007cff00;
+  }
+  100% {
+    box-shadow: 0px 0px 15px 15px #007cff00, 0px 0px 15px 15px #007cff00,
+      0px 0px 15px 15px #007cff00;
+  }
+}
+
 .btn {
   display: block;
   margin: 2rem;
@@ -9,5 +58,29 @@
   background-color: #02a9f7;
   &:hover {
     background-color: #89d6fb;
+  }
+  /*&:active {
+    animation: shadow 5s ease-out;
+  }*/
+  &:active {
+    animation-duration: 1750ms;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: throb;
+    animation-timing-function: linear;
+  }
+  &--animate {
+    &:active {
+      animation: shadow 5s ease-out;
+    }
+  }
+  &--red {
+    background-color: red;
+  }
+  &--green {
+    background-color: green;
+  }
+  &--yellow {
+    background-color: yellow;
   }
 }
