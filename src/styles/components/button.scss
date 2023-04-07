@@ -56,6 +56,7 @@
   border-radius: 0.25rem;
   padding: 0.5rem 1rem;
   background-color: #02a9f7;
+  width: 100%;
   &:hover {
     background-color: #89d6fb;
   }
@@ -82,5 +83,8 @@
   }
   &--yellow {
     background-color: yellow;
+  }
+  @media (min-width: 28.75rem) {
+    width: 15rem;
   }
 }

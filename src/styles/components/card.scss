@@ -1,0 +1,50 @@
+.card {
+  border: 10px solid #ffd93d;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: white;
+  margin: 1rem;
+  padding: 1rem;
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    @media (min-width: 50em) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: 64em) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  &__img {
+    border: 5px solid #ffd93d;
+    border-radius: 0.5rem;
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+  &__footer {
+    display: flex;
+    justify-content: center;
+  }
+  &__footer button {
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: 5px solid #ffd93d;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    font-family: "Delicious Handrawn", cursive;
+    &:hover {
+      box-shadow: 0 5px 10px;
+    }
+  }
+  &__title {
+    text-align: center;
+  }
+  &__desc {
+    text-align: center;
+  }
+}

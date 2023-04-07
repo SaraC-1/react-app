@@ -11,6 +11,7 @@ import TransformExe from "./components/transform-exe";
 import FlexExe from "./components/flex-exe";
 import IconEdit from "./components/icon-edit";
 import Input from "./components/input";
+import Card from "./components/card";
 
 const App = () => {
   return (
@@ -30,6 +31,12 @@ const App = () => {
         <h2>Transform property excercise</h2>
         <TransformExe />
         <FlexExe></FlexExe>
+      </div>
+      <div className="card__grid">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </div>
   );

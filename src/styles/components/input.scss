@@ -3,10 +3,14 @@
   border: 1px solid gray;
   display: block;
   margin-bottom: 1rem;
+  width: 100%;
   &--rounded {
     border-radius: 0.5rem;
   }
   &--validation {
     color: green;
+  }
+  @media (min-width: 28.75rem) {
+    width: 15rem;
   }
 }
