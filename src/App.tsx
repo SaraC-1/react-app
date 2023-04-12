@@ -12,6 +12,7 @@ import FlexExe from "./components/flex-exe";
 import IconEdit from "./components/icon-edit";
 import Input from "./components/input";
 import Card from "./components/card";
+import Card2 from "./components/card2";
 
 const App = () => {
   return (
@@ -37,6 +38,12 @@ const App = () => {
         <Card />
         <Card />
         <Card />
+      </div>
+      <div className="card2__grid">
+        <Card2 />
+        <Card2 />
+        <Card2 />
+        <Card2 />
       </div>
     </div>
   );

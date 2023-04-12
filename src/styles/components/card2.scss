@@ -1,0 +1,67 @@
+.card2 {
+  margin: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    @media (min-width: 50em) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: 64em) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  &__header {
+    display: flex;
+  }
+  &__logo {
+    width: 15%;
+    height: 15%;
+    margin: 1rem;
+  }
+  &__main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+  &__counter {
+    background-color: #0077b6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 3.5rem;
+    height: 3.5rem;
+    &__span {
+      color: white;
+    }
+  }
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+  &__button {
+    background-color: gray;
+    border-radius: 3rem;
+    width: 6rem;
+    height: 3rem;
+    &:active {
+      background-color: green;
+    }
+  }
+  &__toggle {
+    background-color: white;
+    border-radius: 3rem;
+    width: 3rem;
+    height: 3rem;
+    &:active {
+      transform: translateX(3rem);
+      transition: all 50ms linear;
+    }
+  }
+}
