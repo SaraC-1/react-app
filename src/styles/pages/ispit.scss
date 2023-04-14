@@ -1,0 +1,39 @@
+@keyframes cubefall {
+  from {
+    transform: translate3d(0, -40rem, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.cube {
+  display: flex;
+  justify-content: space-around;
+  &__item {
+    width: 16rem;
+    height: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 8rem;
+    margin-top: 16rem;
+
+    &--black {
+      background-color: black;
+      animation: cubefall 1s ease forwards;
+    }
+    &--red {
+      background-color: red;
+      animation: cubefall 1s ease forwards;
+      animation-delay: 1s;
+    }
+    &--orange {
+      background-color: orange;
+      animation: cubefall 1s ease forwards;
+      animation-delay: 2s;
+    }
+  }
+}
