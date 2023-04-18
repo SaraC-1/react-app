@@ -4,13 +4,33 @@
     color: white;
   }
 }
-.page {
+.mlinar {
+  font-family: "Montserrat", sans-serif;
   &__title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 3.5rem;
+    font-weight: 700;
     font-weight: bold;
     &--orange {
-      color: orange;
+      color: #f9b601;
+      line-height: 5.25rem;
+    }
+  }
+  &__tags {
+    &__tag {
+      display: inline-block;
+      margin-right: 0.75rem;
+      margin-top: 1rem;
+      background-color: #1d1f20;
+      border-radius: 1.125rem;
+      &:hover {
+        border: 1px solid #0e8ce9;
+      }
+      &__text {
+        padding: 0.375rem 1rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 500;
+      }
     }
   }
 }
