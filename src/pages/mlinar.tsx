@@ -1,3 +1,5 @@
+import kruh from "./../assets/mlinar/kruh.jpg";
+
 const Mlinar = () => {
   return (
     <div className="container container--dark">
@@ -63,7 +65,7 @@ const Mlinar = () => {
       </div>
       <div className="grid__images">
         <div>
-          <img className="grid__images__img" src="" alt="kruh" />
+          <img className="grid__images__img" src={kruh} alt="kruh" />
           <h6 className="grid__images__h6">Kruh</h6>
           <span className="grid__images__span">Kruhovi ravno iz peći</span>
         </div>

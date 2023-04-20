@@ -23,6 +23,9 @@ const Header = () => {
             <a className="header__nav__item" href="/mlinar">
               Mlinar
             </a>
+            <a className="header__nav__item" href="/varijable">
+              Varijable
+            </a>
           </nav>
           <p>SC</p>
         </div>

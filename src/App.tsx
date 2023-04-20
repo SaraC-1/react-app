@@ -4,7 +4,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Exe from "./pages/exe";
 import Ispit from "./pages/ispit";
 import Home from "./pages/home";
-import Mlinar from "./styles/pages/mlinar";
+import Mlinar from "./pages/mlinar";
+import Varijable from "./pages/varijable";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const App = () => {
     {
       path: "/mlinar",
       element: <Mlinar />,
+    },
+    {
+      path: "/varijable",
+      element: <Varijable />,
     },
   ]);
   return (
