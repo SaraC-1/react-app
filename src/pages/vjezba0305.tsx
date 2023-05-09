@@ -12,7 +12,7 @@ const Vjezba0305 = () => {
 
   //3. Animirati box do 30px i nazad
   //3.2 Animirati box dijagonalno do (30px, 30px) i nazad do 50px
-  //4. Kreirati funkciju koja ce imati lokalnu varijabluu kojoj cemo izracunati sumu 2 parametra i rezultat ispisati unutar boxa
+  //4. Kreirati funkciju koja ce imati lokalnu varijablu u kojoj cemo izracunati sumu 2 parametra i rezultat ispisati unutar boxa
   //5. Dodaj onClick event i na klik smanji dimenzije boxa
 
   let position = 0;
