@@ -49,19 +49,7 @@ const Europe = () => {
             <th>Capital</th>
           </tr>
         </thead>
-        <tbody>
-          {europeData.length > 0 ? (
-          europeData.map((country: CountryType) => {
-            return (
-              <tr>
-                <td>{country.name}</td>
-                <td>{country.flags}</td>
-                <td>{country.currencies}</td>
-                <td>{country.capital}</td>
-              </tr>
-            );
-          })}
-        </tbody>
+        <tbody></tbody>
       </table>
     </div>
   );
