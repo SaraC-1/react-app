@@ -1,0 +1,12 @@
+.todo {
+  background-color: #a7c7e7;
+  width: 50%;
+  &__item {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.trash {
+  width: 1rem;
+}

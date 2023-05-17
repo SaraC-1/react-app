@@ -53,6 +53,9 @@ const Header = () => {
             <a className="header__nav__item" href="/vjezba1505">
               Vjezba1505
             </a>
+            <a className="header__nav__item" href="/todo">
+              Todo
+            </a>
           </nav>
           <p>SC</p>
         </div>
