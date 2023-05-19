@@ -16,6 +16,7 @@ import Europe from "./pages/europe";
 import Africa from "./pages/africa";
 import Vjezba1505 from "./pages/vjezba1505";
 import Todo from "./pages/todo";
+import Partial from "./pages/partial";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -78,6 +79,10 @@ const App = () => {
     {
       path: "/todo",
       element: <Todo />,
+    },
+    {
+      path: "/partial",
+      element: <Partial />,
     },
   ]);
   return (

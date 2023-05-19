@@ -56,6 +56,9 @@ const Header = () => {
             <a className="header__nav__item" href="/todo">
               Todo
             </a>
+            <a className="header__nav__item" href="/partial">
+              Partial
+            </a>
           </nav>
           <p>SC</p>
         </div>
