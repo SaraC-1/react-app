@@ -4,9 +4,9 @@ const Card = () => {
   return (
     <div className="card">
       <img className="card__img" src={umbreon} alt="Umbreon" />
-      <h1 className="card__title">Umbreon</h1>
+      <h1 className="card__title">Umbreon!!!</h1>
       <p className="card__desc">
-        Umbreon's evolution is the result of Eevee being exposed to the
+        Umbreon's evolution is the result of Eevee (cutie) being exposed to the
         moonlight, which altered its genetic structure. Umbreon's yellow rings
         glow when it is excited, such as when it leaps to attack; or when
         exposed to the moon's aura, which fills it with a mysterious energy.
@@ -19,7 +19,7 @@ const Card = () => {
         itself.
       </p>
       <div className="card__footer">
-        <button>Defense</button>
+        <button>Attack</button>
         <button>Cancel</button>
       </div>
     </div>
