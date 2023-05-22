@@ -60,7 +60,7 @@ const Header = () => {
               Partial
             </a>
           </nav>
-          <p>SC</p>
+          <p>SC Commit</p>
         </div>
         <div className="header__hamburger">
           <img src={hamburger} alt="hamburger" />
