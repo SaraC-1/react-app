@@ -13,6 +13,8 @@ const Partial = () => {
   const [searchData, setSearchData] = useState<TunesType[]>([]);
   const [searchValue, setSearchValue] = useState<string>("");
 
+  const test = 2;
+
   const handleSearch = (searchValue: string) => {
     fetch(`https://itunes.apple.com/search?term=${searchValue}&entity=song`)
       .then((response) => {
