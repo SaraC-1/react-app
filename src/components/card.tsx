@@ -19,7 +19,7 @@ const Card = () => {
         itself.
       </p>
       <div className="card__footer">
-        <button>OK</button>
+        <button>Attack</button>
         <button>Cancel</button>
       </div>
     </div>
