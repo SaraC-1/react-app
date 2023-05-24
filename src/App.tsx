@@ -17,6 +17,7 @@ import Africa from "./pages/africa";
 import Vjezba1505 from "./pages/vjezba1505";
 import Todo from "./pages/todo";
 import Partial from "./pages/partial";
+import Anime from "./pages/anime";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -83,6 +84,10 @@ const App = () => {
     {
       path: "/partial",
       element: <Partial />,
+    },
+    {
+      path: "/anime",
+      element: <Anime />,
     },
   ]);
   return (

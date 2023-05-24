@@ -1,0 +1,11 @@
+.animeh1,
+.animeh2 {
+  text-align: center;
+}
+.cardlist {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  &__item img {
+    width: 90%;
+  }
+}

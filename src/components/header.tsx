@@ -59,6 +59,9 @@ const Header = () => {
             <a className="header__nav__item" href="/partial">
               Partial
             </a>
+            <a className="header__nav__item" href="/anime">
+              Anime
+            </a>
           </nav>
           <p>SC Commit</p>
         </div>
