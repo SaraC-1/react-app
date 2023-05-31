@@ -1,0 +1,39 @@
+.barmodal {
+  width: 25%;
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+  &__p {
+    &__secondary {
+      color: gray;
+    }
+  }
+}
+
+.bootstrap__table {
+  margin-top: 2rem;
+}
+
+.player1 {
+  position: absolute;
+  top: 30rem;
+}
+.player2 {
+  position: absolute;
+  top: 42rem;
+}
+.grass1 {
+  position: absolute;
+  top: 37rem;
+}
+.grass2 {
+  position: absolute;
+  top: 49rem;
+}

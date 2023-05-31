@@ -71,11 +71,8 @@ const Anime = () => {
   ];
 
   const getActiveCharacter = (id: number) => {
-    animeCharacters.forEach((value) => {
-      if (value.id === id) {
-        setActiveCharacter(value);
-      }
-    });
+    const character = animeCharacters.find((item) => item.id === id);
+    character ? setActiveCharacter(character) : setActiveCharacter(null);
   };
 
   return (

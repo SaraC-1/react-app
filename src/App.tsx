@@ -18,6 +18,7 @@ import Vjezba1505 from "./pages/vjezba1505";
 import Todo from "./pages/todo";
 import Partial from "./pages/partial";
 import Anime from "./pages/anime";
+import Bootstrap from "./pages/bootstrap";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -88,6 +89,10 @@ const App = () => {
     {
       path: "/anime",
       element: <Anime />,
+    },
+    {
+      path: "/bootstrap",
+      element: <Bootstrap />,
     },
   ]);
   return (

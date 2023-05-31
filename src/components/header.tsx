@@ -62,6 +62,9 @@ const Header = () => {
             <a className="header__nav__item" href="/anime">
               Anime
             </a>
+            <a className="header__nav__item" href="/bootstrap">
+              Bootstrap
+            </a>
           </nav>
           <p>SC Commit</p>
         </div>
