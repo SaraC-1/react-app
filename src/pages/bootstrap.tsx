@@ -3,11 +3,12 @@ import Alert from "react-bootstrap/Alert";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import ProgressBar from "react-bootstrap/ProgressBar";
-import { LineChart, Line } from "recharts";
 import Table from "react-bootstrap/Table";
 import Player1 from "./../assets/player1";
 import Player2 from "./../assets/player2";
 import Grass from "./../assets/grass";
+import Linea from "../assets/linea";
+import Flag from "./../assets/flag";
 
 type GenderType = "male" | "female";
 
@@ -209,12 +210,18 @@ const Bootstrap = () => {
               </div>
             </div>
             <div>
+              <div className="flag">
+                <Flag></Flag>
+              </div>
               <div className="player2">
                 <Player2></Player2>
               </div>
               <div className="grass2">
                 <Grass></Grass>
                 <Grass></Grass>
+              </div>
+              <div className="line">
+                <Linea></Linea>
               </div>
             </div>
           </div>

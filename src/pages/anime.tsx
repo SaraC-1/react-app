@@ -73,6 +73,7 @@ const Anime = () => {
   const getActiveCharacter = (id: number) => {
     const character = animeCharacters.find((item) => item.id === id);
     character ? setActiveCharacter(character) : setActiveCharacter(null);
+    console.log(character);
   };
 
   return (
@@ -86,7 +87,7 @@ const Anime = () => {
       <div className="cardlist">
         {animeCharacters.map((character) => {
           return (
-            <div>
+            <div key={character.id}>
               <div className="cardlist__item">
                 <img
                   src={character.img}
@@ -98,6 +99,13 @@ const Anime = () => {
             </div>
           );
         })}
+      </div>
+      <div>
+        {activeCharacter ? (
+          <div>{activeCharacter.name2}</div>
+        ) : (
+          "nisi odabra niti jednog karaktera"
+        )}
       </div>
     </div>
   );
